@@ -1,0 +1,28 @@
+{
+  "name": "mochaprivytools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./api/soal2 --recursive --reporter mochawesome --reporter-options reportDir=reports/mochawesome/TestPositive --timeout 180000",
+   
+    "reports": "start ./reports/mochawesome/mochawesome.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^7.0.0",
+    "faker": "^5.5.3",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^5.2.0",
+    "mochawesome": "^3.1.2",
+    "moment": "^2.29.3",
+    "node-jose": "^2.0.0",
+    "sha256": "^0.2.0",
+    "supertest": "^3.4.2",
+    "uuid": "^8.3.2"
+  }
+}
