@@ -1,16 +1,11 @@
-I'm using Mocha as a tools framework and Chai for the library
-Basic langauage javascript
+Set up Mocha and Chai library
 
-Steps to install:
--npm init
--'mocha' as a test framework
--'chai' as an assertion library same as postman
--'supertest' as HTTP request agent to call api's
--'mochawesome' as reporter
--'faker@5.5.3' as a random value
+requiremnet:
+- node.js (v16.14.0+)
+- npm init (for creating node modules)
+- 'Mocha' as framework
+- 'Chai' as library
 
-Steps create test case"
--add const supertes = require ('supertest');
--add const assert = require('chai').expect;
--var fs = require('fs');
--create header
+
+How to run API:
+1. npm run test
