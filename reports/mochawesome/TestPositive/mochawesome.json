@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-11-22T07:10:12.949Z",
-    "end": "2022-11-22T07:10:13.127Z",
-    "duration": 178,
+    "start": "2022-11-23T10:17:31.082Z",
+    "end": "2022-11-23T10:17:31.471Z",
+    "duration": 389,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -19,7 +19,7 @@
     "pendingPercentClass": "danger"
   },
   "suites": {
-    "uuid": "1eb6c2b4-796b-4da7-bd6e-b0b34763a23c",
+    "uuid": "d77bbb34-d604-4121-870e-5c5dda067c72",
     "title": "",
     "fullFile": "",
     "file": "",
@@ -28,7 +28,7 @@
     "tests": [],
     "suites": [
       {
-        "uuid": "f4b8b930-0b79-4987-be61-28f5d7b8e546",
+        "uuid": "a447b5f8-1dc2-40c5-8f86-9783cea9c0ab",
         "title": "Get Soal 2",
         "fullFile": "/Users/RV0335/Documents/stockbit/api-test/api/soal2.js",
         "file": "/api/soal2.js",
@@ -39,7 +39,7 @@
             "title": "Get Soal all page",
             "fullTitle": "Get Soal 2 Get Soal all page",
             "timedOut": false,
-            "duration": 174,
+            "duration": 385,
             "state": "passed",
             "speed": "slow",
             "pass": true,
@@ -48,19 +48,19 @@
             "code": "const res = await supertest(\"https://api.punkapi.com/\")\n  .get(\"v2/beers\")\n  .retry(3)\n  .expect(200);\nconsole.log(res.body[0].name);\n     \n     assert(res.body[0].name).to.be.equal('Buzz')",
             "err": {},
             "isRoot": false,
-            "uuid": "933c57fc-6203-4abb-99ff-9c13ae7b4504",
+            "uuid": "2eea75db-6956-4033-bff8-d5b45aeabd5c",
             "isHook": false,
             "skipped": false
           }
         ],
         "suites": [],
         "passes": [
-          "933c57fc-6203-4abb-99ff-9c13ae7b4504"
+          "2eea75db-6956-4033-bff8-d5b45aeabd5c"
         ],
         "failures": [],
         "pending": [],
         "skipped": [],
-        "duration": 174,
+        "duration": 385,
         "root": false,
         "rootEmpty": false,
         "_timeout": 180000
